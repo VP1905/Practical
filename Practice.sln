@@ -3,8 +3,37 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.12.35707.178 d17.12
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerAPI", "CustomerAPI\CustomerAPI.csproj", "{3EC52B70-5604-4513-B19E-DF95EEB9E004}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{CF2D4FDB-A627-48E5-8048-393CD85F5066}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App", "App", "{1038D82B-4F6F-4A73-A506-9D8871D0A4D6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microservices", "Microservices", "{0E01AB8E-8115-4227-8709-9C753D8F35B1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{15C1F0BC-364D-4010-B2AC-3377AADBE7FE}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3EC52B70-5604-4513-B19E-DF95EEB9E004}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EC52B70-5604-4513-B19E-DF95EEB9E004}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EC52B70-5604-4513-B19E-DF95EEB9E004}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EC52B70-5604-4513-B19E-DF95EEB9E004}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF2D4FDB-A627-48E5-8048-393CD85F5066}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF2D4FDB-A627-48E5-8048-393CD85F5066}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF2D4FDB-A627-48E5-8048-393CD85F5066}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF2D4FDB-A627-48E5-8048-393CD85F5066}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3EC52B70-5604-4513-B19E-DF95EEB9E004} = {0E01AB8E-8115-4227-8709-9C753D8F35B1}
+		{CF2D4FDB-A627-48E5-8048-393CD85F5066} = {1038D82B-4F6F-4A73-A506-9D8871D0A4D6}
+		{15C1F0BC-364D-4010-B2AC-3377AADBE7FE} = {0E01AB8E-8115-4227-8709-9C753D8F35B1}
 	EndGlobalSection
 EndGlobal
